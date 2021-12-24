@@ -1,6 +1,6 @@
 #/bin/bash
 #Google Maps and other Google services
-pihole -w clients4.google.com 
+pihole -w clients4.google.com
 pihole -w clients2.google.com
 #Google Play
 pihole -w android.clients.google.com
@@ -25,7 +25,7 @@ pihole -w sls.update.microsoft.com.akadns.net fe3.delivery.dsp.mp.microsoft.com.
 pihole -w msedge.api.cdp.microsoft.com
 #Xbox Live
 #This domain is used for sign-ins, creating new accounts, and recovering existing Microsoft accounts on your (confirmed by Microsoft)
-pihole -w clientconfig.passport.net 
+pihole -w clientconfig.passport.net
 pihole -w v10.events.data.microsoft.com
 pihole -w v20.events.data.microsoft.com
 pihole -w client-s.gateway.messenger.live.com
@@ -49,5 +49,3 @@ pihole -w gfwsl.geforce.com
 pihole -w appspot-preview.l.google.com
 #Epic Games Store
 pihole -w tracking.epicgames.com
-
-
